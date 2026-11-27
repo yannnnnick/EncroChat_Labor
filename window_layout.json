@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "monitor": "primary",
+  "console_host": "classic",
+  "controller_font": 18,
+  "technical_font": 18,
+  "fonts": {"client_1": 16, "client_2": 16},
+  "windows": {
+    "controller": [0.28, 0.18, 0.44, 0.64],
+    "routing_server": [0.66, 0.0, 0.34, 0.35],
+    "config_server": [0.34, 0.0, 0.32, 0.22],
+    "audit_collector": [0.0, 0.0, 0.34, 0.35],
+    "client_1": [0.0, 0.35, 0.34, 0.65],
+    "client_2": [0.66, 0.35, 0.34, 0.65]
+  }
+}

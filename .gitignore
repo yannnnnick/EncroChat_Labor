@@ -1,0 +1,46 @@
+# Python und Entwicklungswerkzeuge
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Lokale Konfiguration und Schlüsselmaterial
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.keylog
+*.keys
+.chat_demo_key.bin
+pki/
+trust/
+offline/
+offline_signer/private/
+
+# Provisionierte Labore, Sicherungen und Testverzeichnisse
+.lab*/
+.lab-start.lock
+.lab-*.txt
+runtime/
+.client_state/
+packages/
+demo-test-*/
+e2ee-test-*/
+security-scenario-*/
+launcher-test-*/
+
+# Messungen, Mitschnitte und temporäre Dateien
+demo-results/
+*.pcap
+*.pcapng
+*.log
+*.tmp
